@@ -1,3 +1,10 @@
 #
 # system.prop for mx2
 #
+
+# hardware info
+ro.device.cpu=1.5GHz Amlogic A9 Dual Core Neon HD CPU
+ro.device.gpu=Mali400 Dual Core High Performance 3D GPU
+ro.device.rear_cam=n/a
+ro.device.front_cam=n/a
+ro.device.screen_res=n/a
