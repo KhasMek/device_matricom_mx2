@@ -21,6 +21,13 @@
 # lines, full and mx2, hence its name.
 #
 
+# Inherit from those products. Most specific first.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/generic_no_telephony.mk)
+
+# Inherit from mx2 device
+$(call inherit-product, device/matricom/mx2/device.mk)
+
+## Device identifier. This must come after all inclusions
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_mx2
 PRODUCT_DEVICE := mx2
