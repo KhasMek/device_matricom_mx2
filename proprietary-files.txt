@@ -1,0 +1,16 @@
+
+# Wifi
+etc/wifi/wpa_supplicant.conf
+#bin/wififix.sh
+
+# Display
+bin/set_display_mode.sh
+
+# Mali
+lib/egl/libEGL_mali.so
+lib/egl/libGLESv1_CM_mali.so
+lib/egl/libGLESv2_mali.so
+
+# USB filesystems
+bin/fsck.exfat
+bin/fsck_msdos
